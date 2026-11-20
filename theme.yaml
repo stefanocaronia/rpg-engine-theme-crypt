@@ -1,6 +1,6 @@
 # Crypt, a theme of the rpg-engine dashboard: vellum and iron-gall ink by day, bone on dark stone by candlelight, a blackletter for the titles.
 name: Crypt
-version: 1.0.0
+version: 1.1.0
 fonts:
   - {family: Grenze Gotisch, file: fonts/grenze-gotisch/GrenzeGotisch.ttf, weight: 100 900, license: fonts/grenze-gotisch/OFL.txt}
   - {family: Alegreya, file: fonts/alegreya/Alegreya.ttf, weight: 400 900, license: fonts/alegreya/OFL.txt}
@@ -8,9 +8,15 @@ text-font: Alegreya
 title-font: Grenze Gotisch
 story-font: Alegreya
 number-font: text
-corners: 2
+corners: 9
 titles: {case: as-written, spacing: 0.01}
-cards: {inner-line: solid, ornament: images/quatrefoil.svg}
+cards: {inner-line: solid, ornament: images/quatrefoil.svg, corner: notch, texture: {picture: images/grain.svg}}
+buttons: {shape: square}
+tabs: {shape: square}
+shadows: sharp
+papers: {documents: "#efe2c2", maps: "#ecdfc0"}
+portraits: {shape: round, frame: double}
+style: style.css
 light:
   paper: "#e9dfcb"
   panel: "#f6efe0"
@@ -26,6 +32,10 @@ light:
   card-edge: "#c4ad87"
   bar-edge: "#5a2d6b"
   page-texture: {picture: images/vellum.svg, fit: tile}
+  head-picture: {picture: images/arcade-light.svg, fit: cover}
+  card-grain: "#b4a288"
+  shadow: "#3b2a1c"
+  portrait-frame: "#b08a3a"
 dark:
   paper: "#0f0d0c"
   panel: "#1a1715"
@@ -41,3 +51,7 @@ dark:
   title-glow: "#8a5a1a"
   bar-edge: "#6b4a2a"
   page-texture: {picture: images/stone.svg, fit: tile}
+  head-picture: {picture: images/arcade-dark.svg, fit: cover}
+  card-grain: "#6b5a48"
+  shadow: "#000000"
+  portrait-frame: "#d8a94a"

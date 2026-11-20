@@ -9,6 +9,10 @@ A theme for the dashboard of [rpg-engine](https://github.com/stefanocaronia/rpg-
 | Accent | `#5a2d6b` amethyst | `#c9a6dc` pale amethyst |
 | Strong | `#c9a043` brass | `#d8a94a` candle |
 
+## Its shapes
+
+Cards with notched corners, flecks of vellum under their words and a rubric's double rule under their headers; square buttons and tabs, the tab chosen on a tint of amethyst; sharp sepia shadows, as of slabs laid on the page; portraits in a double ring of brass, like reliquary medallions; an arcade of pointed arches at the head of the page, beside the campaign's name; parchment for the documents and the maps. The double rule comes from its own style sheet, `style.css`, which Settings can turn off while the rest stays. Needs rpg-engine 0.22 or later.
+
 ## Install
 
 - In the dashboard: **Packages › Add**, paste `https://github.com/stefanocaronia/rpg-engine-theme-crypt`, or find it in the catalog under Themes.
@@ -27,4 +31,4 @@ Both come unchanged from [google/fonts](https://github.com/google/fonts).
 
 ## Licence
 
-The theme, `theme.yaml` and `images/`, is © 2026 Stefano Caronia under [CC BY 4.0](LICENSE). The fonts stay under their own SIL Open Font License, beside each one.
+The theme, `theme.yaml`, `style.css` and `images/`, is © 2026 Stefano Caronia under [CC BY 4.0](LICENSE). The fonts stay under their own SIL Open Font License, beside each one.

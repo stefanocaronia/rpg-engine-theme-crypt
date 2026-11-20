@@ -1,0 +1,4 @@
+/* Crypt's own rules, over the page's: what its theme.yaml cannot say. A rubric's double rule under an open card's header, as in a manuscript. */
+:is(.group, .rolls-card, .table-card)[open] > summary {
+    border-bottom: 3px double var(--card-edge);
+}
