@@ -1,0 +1,43 @@
+# Crypt, a theme of the rpg-engine dashboard: vellum and iron-gall ink by day, bone on dark stone by candlelight, a blackletter for the titles.
+name: Crypt
+version: 1.0.0
+fonts:
+  - {family: Grenze Gotisch, file: fonts/grenze-gotisch/GrenzeGotisch.ttf, weight: 100 900, license: fonts/grenze-gotisch/OFL.txt}
+  - {family: Alegreya, file: fonts/alegreya/Alegreya.ttf, weight: 400 900, license: fonts/alegreya/OFL.txt}
+text-font: Alegreya
+title-font: Grenze Gotisch
+story-font: Alegreya
+number-font: text
+corners: 2
+titles: {case: as-written, spacing: 0.01}
+cards: {inner-line: solid, ornament: images/quatrefoil.svg}
+light:
+  paper: "#e9dfcb"
+  panel: "#f6efe0"
+  rule: "#cdbb9c"
+  ink: "#241a14"
+  muted: "#5f4d3e"
+  accent: "#5a2d6b"
+  gold: "#c9a043"
+  on-gold: "#1d150f"
+  gold-ink: "#7a5a12"
+  ally: "#2f6140"
+  low: "#a3221b"
+  card-edge: "#c4ad87"
+  bar-edge: "#5a2d6b"
+  page-texture: {picture: images/vellum.svg, fit: tile}
+dark:
+  paper: "#0f0d0c"
+  panel: "#1a1715"
+  rule: "#3a322b"
+  ink: "#ece2cf"
+  muted: "#b3a48c"
+  accent: "#c9a6dc"
+  gold: "#d8a94a"
+  on-gold: "#1a1410"
+  ally: "#8fc79a"
+  low: "#ff8a7a"
+  card-edge: "#4a3f35"
+  title-glow: "#8a5a1a"
+  bar-edge: "#6b4a2a"
+  page-texture: {picture: images/stone.svg, fit: tile}
