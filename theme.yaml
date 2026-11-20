@@ -1,6 +1,7 @@
 # Crypt, a theme of the rpg-engine dashboard: vellum and iron-gall ink by day, bone on dark stone by candlelight, a blackletter for the titles.
 name: Crypt
 version: 1.1.0
+engine: "0.22"
 fonts:
   - {family: Grenze Gotisch, file: fonts/grenze-gotisch/GrenzeGotisch.ttf, weight: 100 900, license: fonts/grenze-gotisch/OFL.txt}
   - {family: Alegreya, file: fonts/alegreya/Alegreya.ttf, weight: 400 900, license: fonts/alegreya/OFL.txt}
