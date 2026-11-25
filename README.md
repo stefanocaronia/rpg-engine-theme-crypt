@@ -18,7 +18,20 @@ Cards with notched corners, flecks of vellum under their words and a rubric's do
 - In the dashboard: **Packages › Add**, paste `https://github.com/stefanocaronia/rpg-engine-theme-crypt`, or find it in the catalog under Themes.
 - Or from a terminal: `rpg package install https://github.com/stefanocaronia/rpg-engine-theme-crypt`.
 
-Then choose it in **Settings › This page › Game style**. It is installed for every campaign on this computer; `rpg package uninstall crypt` takes it away.
+Then choose it in **Settings › Dashboard › Theme**. It is installed for every campaign on this computer; `rpg package uninstall crypt` takes it away.
+
+## Working on it
+
+With rpg-engine 0.25 or later, the dashboard reads the theme from your own folder and shows each change as you save it.
+
+1. Clone it wherever you like: `git clone https://github.com/stefanocaronia/rpg-engine-theme-crypt`.
+2. Link it, from any folder: `rpg package install <the folder you cloned> --link`. It takes the place of the Crypt installed.
+3. Open the dashboard of any campaign on this computer and choose Crypt in **Settings › Dashboard › Theme**.
+4. Change `theme.yaml`, `style.css` and the pictures in `images/`: the page follows in a few seconds.
+
+When a change fails a check, such as two colours that do not read on each other, the page goes back to its own look until it is fixed: `rpg package list`, or the dashboard's Packages page, says what is wrong and which colour would do. What each value changes is in rpg-engine's [game-systems.md](https://github.com/stefanocaronia/rpg-engine/blob/main/docs/game-systems.md#theme) and [dashboard-style.md](https://github.com/stefanocaronia/rpg-engine/blob/main/docs/dashboard-style.md#the-games-style).
+
+`rpg package uninstall crypt` takes the link away, never your folder; install it again from GitHub to go back to the published one.
 
 ## Fonts
 
